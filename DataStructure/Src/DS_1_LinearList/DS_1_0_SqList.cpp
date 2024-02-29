@@ -69,7 +69,7 @@ bool ListInsert(SqList &L, int i, int e) {
 //删除
 bool ListDelete(SqList &L, int i, int &e) {
     //判断i的位置是否合法
-    if (i < 0 || i > L.length) {
+    if (i < 1 || i > L.length) {
         return false;
     }
     //取出将要被删除的数
